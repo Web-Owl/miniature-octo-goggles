@@ -1,0 +1,23 @@
+#health_points{
+
+	background-color: red;
+	border:2px solid;
+	height: 20px;
+	
+}
+
+#background_of_health{
+
+	display:inline-block;
+	margin:0px;
+	width:100px;
+	background-color: #610919;
+
+}
+
+#heal{
+
+	background-color: green;
+	border: 2px solid;
+
+}
