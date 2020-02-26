@@ -1,23 +1,37 @@
 #health_points{
-
 	background-color: red;
-	border:2px solid;
 	height: 20px;
-	
 }
 
 #background_of_health{
-
-	display:inline-block;
-	margin:0px;
 	width:100px;
 	background-color: #610919;
-
 }
 
 #heal{
-
+	visibility: hidden;
 	background-color: green;
-	border: 2px solid;
+	padding-left: 5%;
+	height: 20px;
+	width: 100px;
+	border: 0;
+}
 
+#prompt_for_user{
+    height: 20px;
+}
+
+#work_place {
+	float:left;
+	width: 100px;
+	height: 300px;
+	padding-top: 0;
+}
+
+#doDamage{
+	padding-left: 5%;
+	height: 20px;
+	width: 100px;
+	background-color: blue;
+	border:0;
 }
