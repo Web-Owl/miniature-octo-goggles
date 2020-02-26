@@ -16,7 +16,7 @@ function DoDamage() {
     document.getElementById("hp").innerHTML = width_of_health;
     if (width_of_health <= 50) {
     document.getElementById("heal").style.visibility = "visible";	
-    document.getElementById("doDamage").style.visibility = "hidden";
+    document.getElementById("doDamage").remove();
     }
 }
 
